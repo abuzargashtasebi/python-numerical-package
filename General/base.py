@@ -42,6 +42,6 @@ if decode:
 	if code:
 		print("{} in base {} = {} in base {}".format(x, from_base, y, to_base))
 	else:
-		print("Error in converting from base 10")
+		print("Error in converting from base 10 into base {}".format(to_base))
 else:
-	print("Error in converting from base {} to base 10".format(from_base))
+	print("Error in converting from base {} into base 10".format(from_base))
